@@ -1,0 +1,12 @@
+image:
+    file: gitpod.dockerfile
+tasks:
+    - init: . ${GITPOD_REPO_ROOT}/gitpod.tasks.sh
+ports:
+    - port: 80
+    - port: 8000
+
+    # open ports for livereload
+    - port: 8080
+    - port: 3001
+    - port: 35729 
