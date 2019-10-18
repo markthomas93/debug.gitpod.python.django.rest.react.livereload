@@ -2,3 +2,13 @@
 */**/__pycache__/
 */db.sqlite3
 */db.sqlite3-journal
+
+
+### django | suggested from gitlab search:
+*/**/*.pc
+*/**/*.pyc
+*/**/*.pyo
+*/**/__pycache__
+*/**/.deps
+*/**/.libs
+*/**/_build/
